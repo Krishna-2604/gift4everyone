@@ -2,12 +2,32 @@
 <html>
       <head>
             <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            <style>
+                img {
+                    width:150px;
+                    height:150px;
+                    padding:0px;
+                }
+                div.imgsize
+                {
+                    /* display: inline-block; */
+                    /* width:500; */
+                    /* border: 1px solid black; */
+                    /* padding:10px; */
+                    margin-right:5px;
+                }
+                .textdesign{
+                    font-weight:bold;
+                }
+            </style>
             <title>BIRTHDAY GIFTS</title>
             <link rel="stylesheet" href="css/style.css">
       </head>
       <body bgcolor="#e8f4f8">
-            <section>    
+            <div class="container">
+            <!--<section>    
                   <div class="sec1">
                       <div class="title">
                       <a href=""><h1>GIFT4EVER</h1></a>
@@ -21,61 +41,60 @@
 				      <li><a href="registration.html" style="color:Black; background-color:LightBlue;">Registration</a></li>
                           </ul>
                       </div>
-                  </section>
-
-            <div>
-                  <h1 align="center"><u><b>Birthday</b></u></h1> <br><br>
+                  </section>-->
+            <div class="row">
+                  <div class="col-12">
+                        <h1 align="center"><u><b>Birthday</b></u></h1> <br><br>
+                  </div>
             </div>
             <div align="center">
-                  <table align="center" width="728" height="60" border="0" cellpadding="5" cellspacing="25">
-                        <tr>
-                              <td align="center">
-                                    <img width="300" height="250" alt="" src="image\4teddy.jpg"><br>
-                                    Teddy Bears<br>
-                                    ₹ 1499<br><br>
-                              </td>
-                              <td align="center">
-                                    <img width="300" height="250" alt="" src="image\4mugs.jpg"><br>
-                                    Stylish Mugs<br>
-                                    ₹ 999<br>
-                              </td>
-                              <td align="center">
-                                    <img width="300" height="250" alt="" src="image\hand_bags.jpg"><br>
-                                    Wallets<br>
-                                    ₹ 599<br>
-                              </td>
-                              <td align="center">
-                                    <img width="300" height="250" alt="" src="image\watches.jpg"><br>
-                                    Watches<br>
-                                    ₹ 349<br>
-                              </td>
-                        </tr>
-                        <tr>
-                              <td align="center">
-                                    <img width="300" height="250" alt="" src="image\teddy.jpg"><br>
-                                    Special Giftbox<br>
-                                    ₹ 299<br>
-                              </td>
-                              <td align="center">
-                                    <img width="300" height="250" alt="" src="image\accessories.jpg"><br>
-                                    Accessories<br>
-                                    ₹ 199<br>
-                              </td>
-                              <td align="center">
-                                    <img width="300" height="250" alt="" src="image\bag.jpg"><br>
-                                    Collage Bag<br>
-                                    ₹ 499<br>
-                                    <br>
-                              </td>
-                              <td align="center">
-                                    <img width="300" height="250" alt="" src="image\doms_kit.jpg"><br>
-                                    DOMS Bag<br>
-                                    ₹ 299<br>
-                              </td>
-                        </tr>
-                  </tbody>
-            </table>
+                  <div align="center" class="row">
+                                <div class="imgsize col-5 col-md-3">
+                                    <img alt="" src="image\4teddy.jpg"><br>
+                                    <p class="textdesign">Teddy Bears<br>
+                                    ₹ 1499</p>
+                                </div>
+                              <div class="imgsize col-5 col-md-3">
+                                <img alt="" src="image\4mugs.jpg"><br>
+                                <p class="textdesign">Stylish Mugs<br>
+                                    ₹ 999</p>
+                              </div>
+                              <div class="imgsize col-5 col-md-3">
+                                <img alt="" src="image\hand_bags.jpg"><br>
+                                <p class="textdesign">Wallets<br>
+                                    ₹ 399</p>
+                                </div>
+                            <div class="imgsize col-5 col-md-3">
+                                    <img src="image\watches.jpg"><br>
+                                    <p class="textdesign">Watches<br>
+                                    ₹ 349</p>
+                                </div>
+                            <div class="imgsize col-5 col-md-3">
+                                    <img src="image\teddy.jpg"><br>
+                                    <p class="textdesign">Special Giftbox<br>
+                                    ₹ 299</p>
+                                </div>
+                            <div class="imgsize col-5 col-md-3">
+                                    <img src="image\accessories.jpg"><br>
+                                    <p class="textdesign">Accessories<br>
+                                    ₹ 199</p>
+                                </div>
+                            <div class="imgsize col-5 col-md-3">
+                                    <img src="image\bag.jpg"><br>
+                                    <p class="textdesign">Collage Bag<br>
+                                    ₹ 499</p>
+                                </div>
+                            <div class="imgsize col-5 col-md-3">
+                                    <img src="image\doms_kit.jpg"><br>
+                                    <p class="textdesign">DOMS Bag<br>
+                                    ₹ 299</p>
+                                </div>
             <br>
+      </div>
+</div>
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
       </div>
       </body>
