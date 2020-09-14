@@ -81,7 +81,7 @@ nav{
 
 .banner h1{
 	margin-top:-30px;
-    font-size: 70px;   
+    font-size: 70px;
 }
 
 .banner  p{
@@ -96,6 +96,7 @@ nav{
     display: inline-block;
     text-align:center;
     color: #fff;
+
     text-decoration: none;
 }
 
@@ -132,9 +133,10 @@ nav{
     z-index: 1;
 }
 .banner1 h1{
-	margin-top:-250px;
+
+	margin-top:-180px;
 	border-style: double;
-    font-size: 70px;   
+    font-size: 70px;
 }
 
 .fitbg{
@@ -170,14 +172,14 @@ nav{
     z-index: 1;
 }
 .banner2 h1{
-	margin-top:-250px;
+	margin-top:-180px;
 	border-style: double;
-    font-size: 70px;   
+    font-size: 70px;
 }
 .btn{
     position: relative;
     display: inline-block;
-   
+
     padding: 10px 30px;
     color: #fff;
     text-decoration: none;
@@ -217,9 +219,9 @@ nav{
     z-index: 1;
 }
 .banner3 h1{
-	margin-top:-300px;
+	margin-top:-180px;
 	border-style: double;
-    font-size: 70px;   
+    font-size: 70px;
 }
 
 .fitbg{
@@ -255,12 +257,12 @@ nav{
     text-align: center;
     z-index: 1;
 
-  
-  
+
+
 }
 .banner4 h1{
-	margin-top:-250px;
-    font-size: 70px;   
+	margin-top:-180px;
+    font-size: 70px;
 	border-style: double;
 }
 
@@ -299,9 +301,9 @@ nav{
     z-index: 1;
 }
 .banner5 h1{
-	margin-top:-150px;
+	margin-top:-130px;
 	border-style: double;
-    font-size: 70px;   
+    font-size: 70px;
 }
 .fitbg{
 	position: absolute;
@@ -313,7 +315,7 @@ nav{
 	background-position: center;
 }
 .wedding{
-	margin-top:190px;
+	margin-top:180px;
 }
  .anniversary{
  	margin-top: 100px;
