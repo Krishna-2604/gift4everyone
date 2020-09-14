@@ -1,36 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
       <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style>
+            img {
+                width:150px;
+                height:150px;
+                padding:0px;
+}
+            .textdesign{
+                font-weight:bold;
+            }
+            a {
+                  text-decoration: none;
+                  color: aliceblue;
+            }
+        </style>
             <title>REGISTRATION</title>
             <link rel="stylesheet" href="css/style.css">
       </head>
-      <body bgcolor="#e8f4f8">
-        <section>    
-            <div class="sec1">
-                <div class="title">
-                <a href=""><h1>GIFT4EVER</h1></a>
-                </div>
-                <div class="main">
-                    <ul class="menus">
-                        <li><a href="index.html" style="color:Black; background-color:LightBlue;">Home</a></li>
-                        <li><a href="Products.html" style="color:Black; background-color:LightBlue;;">Products</a></li>
-                        <li><a href="about.html" style="color:Black; background-color:LightBlue">About us</a></li>
-                        <li><a href="login.html" style="color:Black; background-color:LightBlue;">Log In</a></li>
-				        <li><a href="registration.html" style="color:Black; background-color:LightBlue;">Registration</a></li>
-                    </ul>
-                </div>
-            </section>
+      <body>
+        <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light menubgcolor">
+			<a href="index.html" class="navbar-brand"><h1 class="h1style" style="color:Blue;">GIFT4EVER</h1></a>
+			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
 
-      <div>
+			<div class="collapse navbar-collapse " id="navbarCollapse">
+			  <div class="navbar-nav  ml-auto">
+				  <a href="index.html" style="color:Black; background-color:LightBlue; border:1px solid black; margin-right:10px" class="nav-item nav-link active">Home</a>
+				  <a href="about.html" style="color:Black; background-color:LightBlue;border:1px solid black; margin-right:10px" class="nav-item nav-link">About us</a>
+				  <a href="Products.html" style="color:Black; background-color:LightBlue;border:1px solid black; margin-right:10px" class="nav-item nav-link">Products</a>
+				  <a href="registration.html" style="color:Black; background-color:LightBlue;border:1px solid black; margin-right:10px" class="nav-item nav-link">Registrations</a>
+				  <a href="login.html" style="color:Black; background-color:LightBlue;border:1px solid black; margin-right:10px" class="nav-item nav-link">Log In</a>
+			  </div>
+
+			</div>
+			</nav>
+      <div class="row">
+          <div class="col-12">
             <h1 align="center"><u>Registration</u></h1><br><br>
+        </div>
       </div>
-
-      <div  align="center">
+      <div class="row container">
+      <div class="center col-12" width="100">
           <form>
             <font size="4">
-                <table align="center" border="0" cellspacing="15">
+                <table class="center" border="0" cellspacing="15">
                     <tr>
                         <td>
                             <label for="uname"><b>User Name  :  </b></label>
@@ -120,7 +139,7 @@
                             <input name="Gender" value="male" type="radio">&nbsp; Male &nbsp; &nbsp;
                             <input name="Gender" value="female" type="radio">&nbsp; Female &nbsp;&nbsp;
                             <input name="Gender" value="Other" type="radio">&nbsp; Other
-                            
+
                         </td>
                     </tr>
 
@@ -129,7 +148,7 @@
                             <label for="address"><b>Address  :  </b></label>
                         </td>
                         <td>
-                            <textarea cols="100" rows="5" name="address" id="address"></textarea>
+                            <textarea cols="100" class="col-12" rows="5" name="address" width="50"id="address"></textarea>
                         </td>
                     </tr>
 
@@ -170,7 +189,7 @@
                                 <option>what is your mother's name?</option>
                                 <option>what is your first school name?</option>
                             </select>
-                            
+
                         </td>
                     </tr>
 
@@ -187,14 +206,19 @@
                         <td align="center">
                             <br><input tabindex="10" name="Submit" value="Submit" type="submit">
                         </td>
-                        <td align="center">                                                                                                                                              
+                        <td align="center">
                             <br><input tabindex="10" name="Reset" value="Reset" type="reset">
                         </td>
                     </tr>
-                    
+
                 </table>
             </font>
           </form>
+      </div>
+    </div>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
       </div>
       </body>
 </html>

@@ -8,11 +8,18 @@
 }
 
 /* This a tag is globally declare */
+body{
+    background-color: #e8f4f8;
+}
 a{
     text-decoration: none;
 }
-section{
+nav{
 		position:relative;
+}
+
+.center{
+    text-align: center;
 }
 
 .sec1{
@@ -29,9 +36,19 @@ section{
     color: #111;
 }
 
+.h1style {
+    color:Blue;
+    border-style: double;
+    color: #111;
+}
+
 .sec1 .menus{
     list-style-type: none;
 	display: flex;
+}
+
+.menubgcolor {
+    background-color: #e8f4f8;
 }
 
 .sec1 li{
@@ -302,8 +319,13 @@ section{
  	margin-top: 100px;
  }
  .birthday{
+    font-size: 50px;
  	margin-top: 100px;
  }
  .festival{
  	margin-top: 100px;
+ }
+
+ .fontsize {
+     font-size: 100px;
  }

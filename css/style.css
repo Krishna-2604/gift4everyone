@@ -8,11 +8,18 @@
 }
 
 /* This a tag is globally declare */
+body{
+    background-color: #e8f4f8;
+}
 a{
     text-decoration: none;
 }
-section{
+nav{
 		position:relative;
+}
+
+.center{
+    text-align: center;
 }
 
 .sec1{
@@ -25,12 +32,23 @@ section{
 }
 
 .sec1 .title h1{
-    color: #111z;
+    border-style: double;
+    color: #111;
+}
+
+.h1style {
+    color:Blue;
+    border-style: double;
+    /* color: #111; */
 }
 
 .sec1 .menus{
     list-style-type: none;
 	display: flex;
+}
+
+.menubgcolor {
+    background-color: #e8f4f8;
 }
 
 .sec1 li{

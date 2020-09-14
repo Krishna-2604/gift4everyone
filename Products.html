@@ -1,51 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
       <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Products</title>
             <link rel="stylesheet" href="css/style.css">
-      </head>
-      <body bgcolor="#e8f4f8">
-            <section>    
-                  <div class="sec1">
-                      <div class="title">
-                      <a href=""><h1>GIFT4EVER</h1></a>
-                      </div>
-                      <div class="main">
-                          <ul class="menus">
-                              <li><a href="index.html" style="color:Black; background-color:LightBlue;">Home</a></li>
-                              <li><a href="Products.html" style="color:Black; background-color:LightBlue;;">Products</a></li>
-                              <li><a href="about.html" style="color:Black; background-color:LightBlue">About us</a></li>
-                              <li><a href="login.html" style="color:Black; background-color:LightBlue;">Log In</a></li>
-				      <li><a href="registration.html" style="color:Black; background-color:LightBlue;">Registration</a></li>
-                          </ul>
-                      </div>
-                  </section>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
-            <div align="center">
-                  <table align="center" width="728" height="60" border="0" cellpadding="5" cellspacing="25">
-                        <tr>
-                              <td align="center">
-                                    <a href="Birthday.html" target="_blanck"><img width="300" height="250" alt="Birthday Gifts" src="image\cake.jpg" title="Birthday"></a><br>Birthday
-                              </td>
-                              <td align="center">
-                                    <a href="Occasion.html" target="_blanck"><img width="300" height="250" alt="Festival Gifts" src="image\christmas_gifts.jpg" title="Festival"></a><br>Festival
-                              </td>
-                              <td align="center">
-                                    <a href="wedding.html" target="_blanck"><img width="300" height="250" alt="Wedding Gifts" src="image\pin_em_one.jpg" title="Wedding"></a><br>Wedding
-                              </td>
-                        </tr>
-                        <tr>
-                              <td colspan="3" align="center">
-                                    <a href="Anniversary.html" target="_blanck"><img width="300" height="250" alt="Anniversary Gifts" src="image\flowers_chocolates.jpg" title="Anniversary"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <a href="greetings.html" target="_blanck"><img width="300" height="250" alt="Greetings" src="image\flower card.jpg" title="Greetings"></a>
-                                    <br>Anniversary&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Greetings
-                              </td>
-                        </tr>
-                  </tbody>
-            </table>
-            <br>
+      </head>
+      <body>
+            <nav class="navbar navbar-expand-md navbar-light menubgcolor">
+                  <a href="index.html" class="navbar-brand"><h1 class="h1style" style="color:Blue;">GIFT4EVER</h1></a>
+                  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                  </button>
+                  
+                  <div class="collapse navbar-collapse " id="navbarCollapse">
+                        <div class="navbar-nav  ml-auto">
+                              <a href="index.html" style="color:Black; background-color:LightBlue; border:1px solid black; margin-right:10px" class="nav-item nav-link active">Home</a>
+                              <a href="about.html" style="color:Black; background-color:LightBlue;border:1px solid black; margin-right:10px" class="nav-item nav-link">About us</a>
+                              <a href="Products.html" style="color:Black; background-color:LightBlue;border:1px solid black; margin-right:10px" class="nav-item nav-link">Products</a>
+                              <a href="registration.html" style="color:Black; background-color:LightBlue;border:1px solid black; margin-right:10px" class="nav-item nav-link">Registrations</a>
+                              <a href="login.html" style="color:Black; background-color:LightBlue;border:1px solid black; margin-right:10px" class="nav-item nav-link">Log In</a>
+                        </div>                       
+                  </div>
+            </nav>
+
+
+            <div class="container">
+              <div class="row justify-content-center align-items-center mb-4">
+                <div class="col-12 col-md-4" align="center">
+                  <a href="Birthday.html" target="_blanck"><img width="300" height="250" alt="Birthday Gifts" src="image\cake.jpg" title="Birthday"></a><br>
+                  <a href="Birthday.html" target="_blanck" style=""><button class="btn btn-primary">Birthday</button></a>
+                </div>
+                <div class="col-12 col-md-4" align="center">
+                  <a href="Occasion.html" target="_blanck"><img width="300" height="250" alt="Occasion" src="image\christmas_gifts.jpg " title="Birthday"></a><br>
+                  <a href="Occasion.html" target="_blanck" style=""><button class="btn btn-primary">Occasion</button></a>
+                </div>
+                <div class="col-12 col-md-4" align="center">
+                  <a href="wedding.html" target="_blanck"><img width="300" height="250" alt="Wedding" src="image\pin_em_one.jpg" title="Birthday"></a><br>
+                  <a href="wedding.html" target="_blanck" style=""><button class="btn btn-primary">Wedding</button></a>
+                </div>
+              </div>
+
+              <div class="row justify-content-center align-items-center mb-4">
+                <div class="col-12 col-md-4" align="center">
+                  <a href="Anniversary.html" target="_blanck"><img width="300" height="250" alt="Anniversary" src="image\flowers_chocolates.jpg" title="Birthday"></a><br>
+                  <a href="Anniversary.html" target="_blanck" style=""><button class="btn btn-primary">Anniversary</button></a>
+                </div>
+                <div class="col-12 col-md-4" align="center">
+                  <a href="greetings.html" target="_blanck"><img width="300" height="250" alt="Greetings" src="image\flower card.jpg" title="Birthday"></a><br>
+                  <a href="greetings.html" target="_blanck" style=""><button class="btn btn-primary">Greetings</button></a>
+                </div>
+
+              </div>
+            </div>
+
 
       </div>
       </body>

@@ -1,82 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
       <head>
             <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            <style>
+                img {
+                    width:150px;
+                    height:150px;
+                    padding:0px;
+                }
+                .textdesign{
+                    font-weight:bold;
+                }
+            </style>
             <title>GREETINGS</title>
             <link rel="stylesheet" href="css/style.css">
       </head>
-      <body bgcolor="#e8f4f8">
-            <section>    
-                  <div class="sec1">
-                      <div class="title">
-                      <a href=""><h1>GIFT4EVER</h1></a>
-                      </div>
-                      <div class="main">
-                          <ul class="menus">
-                              <li><a href="index.html" style="color:Black; background-color:LightBlue;">Home</a></li>
-                              <li><a href="Products.html" style="color:Black; background-color:LightBlue;;">Products</a></li>
-                              <li><a href="about.html" style="color:Black; background-color:LightBlue">About us</a></li>
-                              <li><a href="login.html" style="color:Black; background-color:LightBlue;">Log In</a></li>
-				      <li><a href="registration.html" style="color:Black; background-color:LightBlue;">Registration</a></li>
-                          </ul>
-                      </div>
-                  </section>
-
-            <div>
-                  <h1 align="center"><u><b>Greetings</b></u></h1> <br><br>
+      <body>
+            <div class="container">
+                  <nav class="navbar navbar-expand-md navbar-light menubgcolor">
+                        <a href="index.html" class="navbar-brand"><h1 class="h1style" style="color:Blue;">GIFT4EVER</h1></a>
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                              <span class="navbar-toggler-icon"></span>
+                        </button>
+                        
+                        <div class="collapse navbar-collapse " id="navbarCollapse">
+                              <div class="navbar-nav  ml-auto">
+                                    <a href="index.html" style="color:Black; background-color:LightBlue; border:1px solid black; margin-right:10px" class="nav-item nav-link active">Home</a>
+                                    <a href="about.html" style="color:Black; background-color:LightBlue;border:1px solid black; margin-right:10px" class="nav-item nav-link">About us</a>
+                                    <a href="Products.html" style="color:Black; background-color:LightBlue;border:1px solid black; margin-right:10px" class="nav-item nav-link">Products</a>
+                                    <a href="registration.html" style="color:Black; background-color:LightBlue;border:1px solid black; margin-right:10px" class="nav-item nav-link">Registrations</a>
+                                    <a href="login.html" style="color:Black; background-color:LightBlue;border:1px solid black; margin-right:10px" class="nav-item nav-link">Log In</a>
+                              </div>                       
+                        </div>
+                  </nav>
+                  
+                  <div class="row">
+                        <div class="col-12">
+                              <h1 class="center"><u><b>Greetings</b></u></h1> <br><br>
+                        </div>
+                  </div>
+                  <div class="center">
+                        <div class="row align-items-center justify-content-center">
+                              <div class="col-5 col-md-3">
+                                    <img src="image\Anniversary Card.jpg" alt=""><br>
+                                    <p class="textdesign">Anniversary Card<br>
+                                    ₹ 149</p>
+                              </div>
+                              <div class="col-5 col-md-3">
+                                    <img src="image\Best Wishes.jpg" alt=""><br>
+                                    <p class="textdesign">Best Wishes<br>
+                                    ₹ 149</p>
+                              </div>
+                              <div class="col-5 col-md-3">
+                                    <img src="image\Bouquet & Greeting Card.jpg" alt=""><br>
+                                    <p class="textdesign">Bouquet & Greeting Card<br>
+                                    ₹ 399</p>
+                              </div>
+                              <div class="col-5 col-md-3">
+                                    <img src="image\Congratulations Card.jpg" alt=""><br>
+                                    <p class="textdesign">Congratulations Card<br>
+                                    ₹ 99</p>
+                              </div>
+                              <div class="col-5 col-md-3">
+                                    <img src="image\Graduation Card.jpg" alt=""><br>
+                                    <p class="textdesign">Graduation Card<br>
+                                    ₹ 199</p>
+                              </div>
+                              <div class="col-5 col-md-3">
+                                    <img src="image\Sorry Card.jpg" alt=""><br>
+                                    <p class="textdesign">Sorry Card<br>
+                                    ₹ 99</p>
+                              </div>
+                              <div class="col-5 col-md-3">
+                                    <img src="image\Thank You Card.jpg" alt=""><br>
+                                    <p class="textdesign">Thank You Card<br>
+                                    ₹ 199</p>
+                              </div>
+                              <div class="col-5 col-md-3">
+                                    <img src="image\Welcome Card.jpg" alt=""><br>
+                                    <p class="textdesign">Welcome Card<br>
+                                    ₹ 299</p>
+                              </div>
+                              <br>
+                        </div>
+                  </div>
+                  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
             </div>
-            <div align="center">
-                  <table align="center" width="728" height="60" border="0" cellpadding="5" cellspacing="25">
-                        <tr>
-                              <td align="center">
-                                    <img width="300" height="250" alt="" src="image\Anniversary Card.jpg"><br>
-                                    Anniversary Card<br>
-                                    ₹ 149<br><br>
-                              </td>
-                              <td align="center">
-                                    <img width="300" height="250" alt="" src="image\Best Wishes.jpg"><br>
-                                    Best Wishes<br>
-                                    ₹ 149<br>
-                              </td>
-                              <td align="center">
-                                    <img width="300" height="250" alt="" src="image\Bouquet & Greeting Card.jpg"><br>
-                                    Bouquet & Greeting Card<br>
-                                    ₹ 399<br>
-                              </td>
-                              <td align="center">
-                                    <img width="300" height="250" alt="" src="image\Congratulations Card.jpg"><br>
-                                    Congratulations Card<br>
-                                    ₹ 99<br>
-                              </td>
-                        </tr>
-                        <tr>
-                              <td align="center">
-                                    <img width="300" height="250" alt="" src="image\Graduation Card.jpg"><br>
-                                    Graduation Card<br>
-                                    ₹ 199<br>
-                              </td>
-                              <td align="center">
-                                    <img width="300" height="250" alt="" src="image\Sorry Card.jpg"><br>
-                                    Sorry Card<br>
-                                    ₹ 99<br>
-                              </td>
-                              <td align="center">
-                                    <img width="300" height="250" alt="" src="image\Thank You Card.jpg"><br>
-                                    Thank You Card<br>
-                                    ₹ 199<br>
-                                    <br>
-                              </td>
-                              <td align="center">
-                                    <img width="300" height="250" alt="" src="image\Welcome Card.jpg"><br>
-                                    Welcome Card<br>
-                                    ₹ 299<br>
-                              </td>
-                        </tr>
-                  </tbody>
-            </table>
-            <br>
-
-      </div>
       </body>
 </html>

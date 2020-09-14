@@ -115,3 +115,9 @@ float: left;
 .ma{
   padding: 30px 30px 30px 30px;
 }
+
+.h1style {
+    color:Blue;
+    border-style: double;
+    color: #111;
+}
