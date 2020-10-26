@@ -7,6 +7,59 @@
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
           <link rel="stylesheet" href="css/style.css">
+
+          <script type="text/javascript">
+            function validate()
+            {
+                var emailRegex = /^[A-Za-z0-9._]*\@[A-Za-z]*\.[A-Za-z]{2,5}$/;
+                var letters = /^[A-Za-z ]+$/; 
+                var femail = document.register.email.value;
+                var uname = document.register.uname.value;
+                var fpassword = document.register.pwd.value;
+                
+                if( uname == "" )
+                {
+                    alert("First name cannot be blank");
+                    document.register.uname.focus() ;
+                    return false;
+                }
+
+                if( !letters.test(uname) )
+                {
+                    alert("First name has to be alphabets");
+                    document.register.uname.focus();
+                    return false;
+                }
+
+                if (femail == "" )
+                {
+                    alert("Enter email");
+                    document.register.email.focus();
+                    return false;
+                }
+                else if(!emailRegex.test(femail))
+                {
+                    alert("email format is not valid");
+                    document.register.email.focus();
+                    return false;
+                }
+                     
+                if(fpassword == "")
+                {
+                    alert("Password cannot be blank");
+                    document.register.pwd.focus();
+                         
+                    return false;
+                }
+                     
+                if(fpassword.length <= 6)
+                {
+                    alert("Password cannot be less than 6 characters");
+                    document.register.pwd.focus();
+                    return false;
+                }
+                
+        </script>
       </head>
       <body>
         <div class="container">
@@ -34,9 +87,9 @@
 
       <div>
       <div  class="center col-12">
-        <form>
+        <form name="register" id="login" method="post" action="index.html" onsubmit="return(validate());">
             <font size="4" >
-                <label for="uname"><b>User Name  :  </b></label>&nbsp;&nbsp;&nbsp;
+                <label for="uname"><b>User Name / Email Id  :  </b></label>&nbsp;&nbsp;&nbsp;
                 <input type="text" id="uname" name="uname"><br><br>
 
                 <label for="ps"><b>Pass Word  :  </b></label>&nbsp;&nbsp;&nbsp;
@@ -44,7 +97,7 @@
 
                 <input name="login" value="login" type="submit"><br><br><br>
 
-                <a href="#">Don't have a Account?</a><br>
+                <a href="registration.html">Don't have a Account?</a><br>
                 <a href="#">Forgot Password</a>
 
             </font>
