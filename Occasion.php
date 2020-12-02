@@ -19,22 +19,23 @@
       </head>
       <body>
             <div class="container">
-                  <nav class="navbar navbar-expand-md navbar-light menubgcolor">
-                        <a href="index.html" class="navbar-brand"><h1 class="h1style" style="color:Blue;">GIFT4EVER</h1></a>
-                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                              <span class="navbar-toggler-icon"></span>
-                        </button>
-                        
-                        <div class="collapse navbar-collapse " id="navbarCollapse">
-                              <div class="navbar-nav  ml-auto">
-                                    <a href="index.html" style="color:Black; background-color:LightBlue; border:1px solid black; margin-right:10px" class="nav-item nav-link active">Home</a>
-                                    <a href="about.html" style="color:Black; background-color:LightBlue;border:1px solid black; margin-right:10px" class="nav-item nav-link">About us</a>
-                                    <a href="Products.html" style="color:Black; background-color:LightBlue;border:1px solid black; margin-right:10px" class="nav-item nav-link">Products</a>
-                                    <a href="registration.html" style="color:Black; background-color:LightBlue;border:1px solid black; margin-right:10px" class="nav-item nav-link">Registrations</a>
-                                    <a href="login.html" style="color:Black; background-color:LightBlue;border:1px solid black; margin-right:10px" class="nav-item nav-link">Log In</a>
-                              </div>                       
-                        </div>
-                  </nav>
+                  
+  <nav class="navbar navbar-expand-md navbar-light menubgcolor">
+    <a href="index.php" class="navbar-brand"><h1 class="h1style" style="color:Blue; border: double blue">GIFT4EVER</h1></a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse " id="navbarCollapse">
+          <div class="navbar-nav  ml-auto">
+                <a href="index.php" style="color:Black; background-color:LightBlue; border:1px solid black; margin-right:10px" class="nav-item nav-link active">Home</a>
+                <a href="about.php" style="color:Black; background-color:LightBlue;border:1px solid black; margin-right:10px" class="nav-item nav-link">About us</a>
+                <a href="Products.php" style="color:Black; background-color:LightBlue;border:1px solid black; margin-right:10px" class="nav-item nav-link">Products</a>
+                <a href="php/register.php" style="color:Black; background-color:LightBlue;border:1px solid black; margin-right:10px" class="nav-item nav-link">Registrations</a>
+                <a href="php/login.php" style="color:Black; background-color:LightBlue;border:1px solid black; margin-right:10px" class="nav-item nav-link">Log In</a>
+          </div>                       
+    </div>
+</nav>
                   <div class="row">
                         <div class="col-12">
                               <h1 class="center"><u><b>Occasion</b></u></h1> <br><br>
