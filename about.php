@@ -8,22 +8,23 @@
     <link rel="stylesheet" href="css/style-about.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
   <nav class="navbar navbar-expand-md navbar-light menubgcolor">
-    <a href="index.php" class="navbar-brand"><h1 class="h1style" style="color:Blue; border: double blue">GIFT4EVER</h1></a>
+    <a href="index.html" class="navbar-brand"><h1 class="h1style" style="color:Blue; border: double blue">GIFT4EVER</h1></a>
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
           <span class="navbar-toggler-icon"></span>
     </button>
-    
+    <?php
+    ?>
     <div class="collapse navbar-collapse " id="navbarCollapse">
           <div class="navbar-nav  ml-auto">
-                <a href="index.php" style="color:Black; background-color:LightBlue; border:1px solid black; margin-right:10px" class="nav-item nav-link active">Home</a>
-                <a href="about.php" style="color:Black; background-color:LightBlue;border:1px solid black; margin-right:10px" class="nav-item nav-link">About us</a>
-                <a href="Products.php" style="color:Black; background-color:LightBlue;border:1px solid black; margin-right:10px" class="nav-item nav-link">Products</a>
-                <a href="php/register.php" style="color:Black; background-color:LightBlue;border:1px solid black; margin-right:10px" class="nav-item nav-link">Registrations</a>
-                <a href="php/login.php" style="color:Black; background-color:LightBlue;border:1px solid black; margin-right:10px" class="nav-item nav-link">Log In</a>
+                <a href="index.html" style="color:Black; background-color:LightBlue; border:1px solid black; margin-right:10px" class="nav-item nav-link active">Home</a>
+                <a href="about.html" style="color:Black; background-color:LightBlue;border:1px solid black; margin-right:10px" class="nav-item nav-link">About us</a>
+                <a href="Products.html" style="color:Black; background-color:LightBlue;border:1px solid black; margin-right:10px" class="nav-item nav-link">Products</a>
+                <a href="registration.html" style="color:Black; background-color:LightBlue;border:1px solid black; margin-right:10px" class="nav-item nav-link">Registrations</a>
+                <a href="login.html" style="color:Black; background-color:LightBlue;border:1px solid black; margin-right:10px" class="nav-item nav-link">Log In</a>
           </div>                       
     </div>
 </nav>
@@ -76,7 +77,26 @@
     <h2><center>Get In Touch</center></h2>
   </div>
   <div class="col-12 content-heading">
-    <p class="container">Stay Connect With at us <a href="#">Instagram</a> <a href="#">Facebook</a> <a href="#">Youtube</a></p>
+    <div style="background-color:lightblue;">
+      <div class="row align-items-center justify-content-center">
+            <div class="col-5 col-md-5">
+              <div>
+                <p style="position: relative; left: 20px; top: 20px; "><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.1303759268008!2d73.12836851418018!3d21.06745438597742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be060e0ed1b1b0d%3A0x7e8e92e6502dd5a3!2sChhotubhai%20Gopalbhai%20Patel%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1606978142339!5m2!1sen!2sin" width="300" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></iframe></p>
+              </div>
+            </div>
+            <div class="col-5 col-md-5">
+              <p class="container"><b>Contact Us</b><br>
+                <p class="container" style="font-size: 70%;">Maliba Campus, Mahuva-Bardoli Rd, <br>Gopal Vidyanagar, Tarsadi, <br>Gujarat 394350</p>
+                <p class="container" style="font-size: 70%;">Admin@gift4ever.in</p>
+                <!-- <p class="container"><i class="fab fa-instagram-square"></i></p> -->
+                <!-- <a href="#">Instagram</a> <a href="#">Facebook</a> <a href="#">Youtube</a></p> -->
+            </div>
+</div>
+</div>
+    <!-- <p class="container">Stay Connect With at us <a href="#">Instagram</a> <a href="#">Facebook</a> <a href="#">Youtube</a></p>
+    <div style="background-color:#000066; align-content: left ;">
+			<p style="position: relative; left: 20px; top: 20px; "><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59518.57404336562!2d72.77522060119912!3d21.195699068449688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04c3cb2f8198d%3A0x5071ab9520d68179!2sMonginis%20Cake%20Shop!5e0!3m2!1sen!2sin!4v1606935827877!5m2!1sen!2sin" width="300" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+		</div> -->
   </div>
 </div>
 
